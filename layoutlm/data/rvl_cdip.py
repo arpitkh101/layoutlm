@@ -126,7 +126,7 @@ class CdipProcessor(DataProcessor):
             )
             
         width, height = data['width'], data['height']
-        text_buffer = data'text_list']
+        text_buffer = data['text_list']
 
         boxes = data['bbox_list']
 
